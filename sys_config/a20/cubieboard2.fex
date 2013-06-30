@@ -498,7 +498,7 @@ siv121d = 0
 gc2035 = 0
 
 [csi0_para]
-csi_used = 1
+csi_used = 0 
 csi_dev_qty = 2
 csi_stby_mode = 0
 csi_mname = "gc0308"
@@ -645,7 +645,7 @@ sdc_isio = 0
 sdc_regulator = "none"
 
 [mmc3_para]
-sdc_used = 1
+sdc_used = 0 
 sdc_detmode = 4
 sdc_buswidth = 4
 sdc_cmd = port:PI04<2><1><2><default>
@@ -760,7 +760,7 @@ release = 100
 luns = 3
 
 [gsensor_para]
-gsensor_used = 1
+gsensor_used = 0 
 gsensor_twi_id = 1
 gsensor_int1 =
 gsensor_int2 =
@@ -870,7 +870,7 @@ audio_pa_ctrl = port:PH15<1><default><default><1>
 switch_used = 0
 
 [ir_para]
-ir_used = 1
+ir_used = 0 
 ir_rx = port:PB04<2><default><default><default>
 
 [leds_para]
